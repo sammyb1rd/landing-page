@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 html {
@@ -48,20 +48,46 @@ header, footer {
     background-color: #1F2937;
     display: flex;
     flex-flow: row wrap;
+    padding: 50px 170px 100px;
+    gap: 30px;
 }
 
 .upper-left-text {
     flex: 1;
     display: flex;
     flex-flow: column;
+    gap: 10px;
 }
 
 .upper-right-img {
     flex: 1;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .upper-left-text-title {
     color: #F9FAF8;
-    font-size: 48px; 
+    font-size: 48px;
+    font-weight: 900; 
+}
+
+.upper-left-text-main {
+    color: whitesmoke;
+}
+
+.upper-left-button {
+    display: flex;
+}
+
+.button-signup {
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 8px;
 }
 
 .middle-flex {
