@@ -92,5 +92,73 @@ header, footer {
 
 .middle-flex {
     background-color: white;
+    padding: 50px 170px 100px;
 }
+
+.middle-flex-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.middle-flex-container {
+    display: flex;
+    height: 175px;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.middle-flex-item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.middle-flex-item-box {
+    border: 4px solid #3882f6;
+    display: flex;
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.middle-flex-item-text {
+    text-align: center;
+
+}
+
+.middle-quote {
+    background-color: #e5e7eb;
+    padding: 100px 170px 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.middle-quote-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.middle-quote-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    max-width: 800px;
+}
+
+.middle-quote-attribute {
+    font-weight: 800;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+
 
