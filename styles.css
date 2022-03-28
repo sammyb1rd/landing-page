@@ -21,6 +21,7 @@ body {
     
 }
 
+
 header, footer {
     background-color: #1F2937;
     padding: 20px 170px;
@@ -88,6 +89,7 @@ header, footer {
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .middle-flex {
@@ -186,6 +188,15 @@ header, footer {
     padding: 10px 40px;
     border-radius: 8px;
     border: 2px solid whitesmoke;
+    flex-shrink: 0;
+    flex-wrap: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 
