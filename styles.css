@@ -160,5 +160,33 @@ header, footer {
     align-self: flex-end;
 }
 
+.lower {
+    padding: 100px 170px 100px;
+}
+
+.banner {
+    background-color: #3882f6;
+    padding: 70px 120px;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+.banner-text-upper {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.banner-button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+}
+
 
 
